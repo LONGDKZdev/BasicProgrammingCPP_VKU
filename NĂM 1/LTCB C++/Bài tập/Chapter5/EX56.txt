@@ -1,1 +1,1 @@
-(with n =6)Value of Sum = 21
+6 5 4 3 2 1 

@@ -41,30 +41,23 @@ int main(){
     fileIn.close();
 
     /////EXercise 5.6/////
-    
-    
-    int Sum = 0, n;
     fileIn.open("EX56.txt");
-    cout<<"Exercise 5.6"<<endl;
-    cout<<"Enter limit value to caculate sum : ";
-    cin>>n;
-    for(int i =0;i <= n;i++){
-        Sum +=i ;
-    }
-    fileIn<<"(with n ="<<n<<")Value of Sum = "<<Sum;
-    fileIn.close();
-
-// thao tác đưa vào file
-
-    fileOut.open("EX56.txt");
     
-    if(!fileOut){
-    cout<<"ERROR";
+    cout<<"Enter value = ";
+    cin>>valueIn;
+    
+    if(valueIn <= 0 ){
+        cout<<"ERROR!";
     }
     else{
-        cout<<Sum;
+        int i =valueIn;
+    do{
+        fileIn<<i<<" ";
+        i--;
     }
-    cout<<endl;
+    while(i >=1);
+    }
+    fileIn.close();
 
 /////Exercise 5.7/////
     cout<<"Exercise 5.7"<<endl;
@@ -96,6 +89,7 @@ int main(){
 /////Exercise5.8/////
 cout<<"Exercise 5.8"<<endl;
     fileIn.open("EX58.txt");
+    int n;
     int product = 1;
     cout << "Enter the naturel number  n: ";
     cin >> n;
