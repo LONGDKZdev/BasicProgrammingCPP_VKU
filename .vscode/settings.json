@@ -14,5 +14,11 @@
         "utility": "cpp",
         "fstream": "cpp",
         "iosfwd": "cpp"
-    }
+    },
+    "diffEditor.codeLens": true,
+    "diffEditor.diffAlgorithm": "advanced",
+    "diffEditor.hideUnchangedRegions.contextLineCount": 5,
+    "diffEditor.experimental.useTrueInlineView": true,
+    "diffEditor.experimental.showMoves": true,
+    "editor.fontSize": 12
 }
