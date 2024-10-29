@@ -20,5 +20,4 @@ int main (){
     else{
             cout<<valueOut<<" is Prime ";
     }
-    return 0;
 }
