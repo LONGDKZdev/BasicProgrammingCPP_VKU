@@ -23,4 +23,5 @@ int ArrayA[50];
     cout<<endl;
     cout<<Max<<endl;
     cout<<count;
+    //
 }
