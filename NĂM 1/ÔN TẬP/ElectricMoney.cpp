@@ -25,5 +25,4 @@ int main(){
         cout<<Money<<" dong";
     }
 
-
 }
