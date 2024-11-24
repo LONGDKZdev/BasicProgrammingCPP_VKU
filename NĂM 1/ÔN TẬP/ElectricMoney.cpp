@@ -24,5 +24,5 @@ int main(){
         Money = 50*100+50*150+50*200+(electricNumber-150)*200; 
         cout<<Money<<" dong";
     }
-
+ 
 }
