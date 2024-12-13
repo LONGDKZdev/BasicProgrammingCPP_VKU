@@ -7,16 +7,15 @@ for number in range (1 , maximum+1):
 print("The sum of even number from 1 to {0} = {1}".format(number,total))
 
 
-#include <iostream>
-#using namespace std;
-
-#int main(){
+# include <iostream>
+# using namespace std;
+# int main(){
 #   int sum = 0, i,n;
-#cout<<"Nhap n : ";cin>>n;
+# cout<<"Nhap n : ";cin>>n;
 #   for(int i=1 ; i <=n; i++ ){
 #  if(i % 2 != 0){
 #      sum += i;
 #      }
 #   }
-#cout<<sum;
-#}
+# cout<<sum;
+# }
