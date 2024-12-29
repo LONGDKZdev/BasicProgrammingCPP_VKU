@@ -1,0 +1,6 @@
+a,b=int(input("Nhap gia tri a :")),int(input("Nhap gia tri b :"))
+#c,d=int(input,input("Nhap c va d :"))
+print("Tong cua ",a,"+",b," la :",a+b)
+print("hieu cua ",a,"-",b," la :",a-b)
+print("tich cua ",a,"*",b," la :",a*b)
+print("thuong cua ",a,"/",b," la :", '%0.2f' % (a/b))

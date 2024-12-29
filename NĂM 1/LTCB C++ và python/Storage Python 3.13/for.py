@@ -1,5 +1,0 @@
-for i in range(1,11):print(i," ",end=" ")
-print("\n")
-for i in range(1,-5,-1):print(i," ",end=" ")
-print("\n")
-for i in range(1,11,3):print(i," ",end=" ")
