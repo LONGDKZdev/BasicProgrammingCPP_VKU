@@ -44,7 +44,7 @@ int main(){
     cout<<"Mang sau khi chen vao: \n";
     show(arr, n);
 
-
+    
 
 
     
