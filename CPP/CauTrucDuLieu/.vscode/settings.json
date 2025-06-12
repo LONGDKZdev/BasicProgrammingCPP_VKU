@@ -1,0 +1,14 @@
+{
+   "files.associations": {
+      "random": "cpp"
+   },
+   "workbench.colorCustomizations": {
+      "activityBar.background": "#2A3108",
+      "titleBar.activeBackground": "#3A440B",
+      "titleBar.activeForeground": "#F8FBE9"
+   },
+   "C_Cpp.errorSquiggles": "disabled",
+   "cSpell.words": [
+      "chèn"
+   ]
+}
